@@ -171,3 +171,37 @@ body {
 #jumbo div p {
     font-size: 14px;
 }
+
+#select-plan-wrapper {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f5f8fa;
+}
+
+#plan-description {
+    float: left;
+    width: 32%;
+    height: 200px;
+    background-color: red;
+    margin-right: 2%;
+    margin-bottom: 21px;
+}
+
+.plan {
+    float: right;
+    width: 66%;
+    background-color: purple;
+    margin-bottom: 21px;
+}
+
+.row:nth-child(2) .plan {
+    float: left;
+    width: 32%;
+    background-color: purple;
+}
+
+.row:nth-child(2) .plan:nth-of-type(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: blue;
+}
