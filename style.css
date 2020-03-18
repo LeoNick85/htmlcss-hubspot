@@ -38,7 +38,7 @@
 }
 
 body {
-    height: 120vh;
+    height: 2000px;
     background-color: yellow;
     font-family: 'Baloo Chettan 2', cursive;
 }
@@ -129,4 +129,45 @@ body {
     display: inline-block;
     padding: 0 10px;
     cursor: pointer;
+}
+
+#jumbo-wrapper {
+    background-color: #fff2ee;
+    height: 700px;
+}
+
+#jumbo {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#jumbo {
+    width: 40%;
+}
+
+#jumbo h1 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+#jumbo p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#jumbo div {
+    width: 50%;
+}
+
+#jumbo div button {
+    margin: 0;
+    width: 100%;
+    padding: 18px 0;
+    font-size:20px;
+    font-weight: normal;
+}
+
+#jumbo div p {
+    font-size: 14px;
 }
