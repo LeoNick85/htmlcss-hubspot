@@ -173,35 +173,97 @@ body {
 }
 
 #select-plan-wrapper {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     background-color: #f5f8fa;
 }
 
 #plan-description {
     float: left;
     width: 32%;
-    height: 200px;
-    background-color: red;
     margin-right: 2%;
     margin-bottom: 21px;
+    font-size: 19px;
+}
+
+#plan-description h2 {
+    font-size: 38px;
+    line-height: 38px;
+    margin-bottom: 15px;
 }
 
 .plan {
+    padding: 18px;
     float: right;
     width: 66%;
-    background-color: purple;
     margin-bottom: 21px;
+    background-color: white;
+    border: 2px solid #f0f2f3;
+}
+
+.plan:hover {
+    transform: scale(1.01, 1.01);
+}
+
+.plan-title-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-title-row img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.plan-title-row h3 {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.plan p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.plan ul {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.plan ul p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row:first-child .plan li {
+    display: inline-block;
+    padding-right: 6px;
+}
+
+.fa-check-square {
+    color: #ff7a59;
+    padding-right: 6px;
+}
+.plan button {
+float: right;
+width: 250px;
+}
+
+.row:first-child .plan ul li:last-child {
+text-align: right;
 }
 
 .row:nth-child(2) .plan {
     float: left;
     width: 32%;
-    background-color: purple;
 }
 
 .row:nth-child(2) .plan:nth-of-type(2) {
     margin-left: 2%;
     margin-right: 2%;
-    background-color: blue;
+}
+
+.row:nth-child(2) .plan button {
+margin-top: 20px;
+width: 100%;
 }
