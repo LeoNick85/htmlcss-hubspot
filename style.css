@@ -38,8 +38,8 @@
 }
 
 body {
-    height: 2000px;
-    background-color: yellow;
+    height: 4000px;
+    background-color: red;
     font-family: 'Baloo Chettan 2', cursive;
 }
 
@@ -266,4 +266,51 @@ text-align: right;
 .row:nth-child(2) .plan button {
 margin-top: 20px;
 width: 100%;
+}
+
+#statistics {
+    background-image: linear-gradient(to right, #00a5bb, #00b6ad);
+    color: white;
+    padding-bottom: 100px;
+}
+
+#statistics-title {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#statistics-title h4 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+#statistics-title p {
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+#statistics-data {
+    background-color: yellow;
+    height: 600px;
+}
+
+
+.data-square {
+    float: left;
+    width: 25%;
+    height:300px;
+    background-color: purple;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.data-row:first-child .data-square {
+    border-bottom: 1px solid white;
+}
+
+.data-square:last-child {
+    border: none;
 }
