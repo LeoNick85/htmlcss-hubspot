@@ -26,6 +26,10 @@
     margin-right: 6px;
 }
 
+.btn_main:hover {
+    opacity: 0.8;
+}
+
 .btn_alternative {
     color: #ff7a59;
     background-color: white;
@@ -37,8 +41,12 @@
     margin-right: 6px;
 }
 
+.btn_alternative:hover {
+    background-color: #ffe4dd;
+}
+
 body {
-    height: 4000px;
+    height: 5000px;
     background-color: red;
     font-family: 'Baloo Chettan 2', cursive;
 }
@@ -323,4 +331,100 @@ margin-top: 40px;
 
 .data-row:last-child .data-square:last-child img {
     margin-top: 50px;
+}
+
+#customers {
+    background-color: white;
+}
+
+#customers-logo-row {
+    height: 300px;
+    margin-top: 80px;
+}
+
+#customers-logo-row-left {
+    float: left;
+    width: 32%;
+    height:300px;
+    padding-top: 30px;
+}
+
+#customers-logo-row-left p:first-child {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#customers-logo-row-left p:last-child {
+    font-size: 22px;
+}
+
+#customers-logo-row-left span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#customers-logo-row-right {
+    float: left;
+    width: 68%;
+    height:300px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.customer-logo-square {
+    height: 100px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.customer-logo-square img {
+    width: 80%;
+    height:100%;
+    object-fit: contain;
+}
+
+#customer-jumbotron {
+    height: 450px;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#customer-jumbotron-text {
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+
+#customer-jumbotron-text h6 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+#customer-jumbotron-text p {
+    font-size: 19.1px;
+}
+
+#customer-jumbotron-text button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+#customer-jumbotron-text p:last-child {
+    font-size: 14px;
+}
+
+#customer-jumbotron img {
+    height: 100%;
+    object-fit: contain;
+}
+
+footer {
+    height: 500px;
+    background-color: #33475b;
 }
