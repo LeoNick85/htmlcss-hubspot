@@ -427,4 +427,52 @@ margin-top: 40px;
 footer {
     height: 500px;
     background-color: #33475b;
+    color: #cbd6e2;
+}
+
+#site-map {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.site-map-column {
+    float: left;
+    width: 25%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.site-map-column ul {
+    list-style-type: none;
+}
+
+.site-map-column ul p {
+    color: white;
+    font-weight: bold;
+}
+
+.site-map-column a {
+    color: grey;
+    text-decoration: none;
+}
+
+.site-map-column li:hover a {
+    color: lightblue;
+}
+
+#contacts-row {
+    background-color: green;
+    height: 80px;
+}
+
+#languages {
+    background-color: pink;
+    height: 80px;
+}
+
+#colophon {
+    background-color: purple;
+    height: 80px;
 }
