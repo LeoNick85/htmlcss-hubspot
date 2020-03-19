@@ -46,8 +46,6 @@
 }
 
 body {
-    height: 5000px;
-    background-color: red;
     font-family: 'Baloo Chettan 2', cursive;
 }
 
@@ -425,7 +423,6 @@ margin-top: 40px;
 }
 
 footer {
-    height: 500px;
     background-color: #33475b;
     color: #cbd6e2;
 }
@@ -454,7 +451,7 @@ footer {
 }
 
 .site-map-column a {
-    color: grey;
+    color: #cbd6e2;
     text-decoration: none;
 }
 
@@ -463,16 +460,106 @@ footer {
 }
 
 #contacts-row {
-    background-color: green;
-    height: 80px;
+    text-align: right;
+}
+
+#contacts-row button {
+    padding: 15px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#contacts-row i {
+    font-size: 24px;
+    padding: 11.4px;
+}
+
+#contacts-row a {
+    color: #cbd6e2;
+    text-decoration: none;
+}
+
+#contacts-row a:hover {
+        color: lightblue;
 }
 
 #languages {
-    background-color: pink;
     height: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#languages ul {
+    list-style-type: none;
+}
+
+#languages li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#languages a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
+#languages li:hover a {
+    color: lightblue;
 }
 
 #colophon {
-    background-color: purple;
+    margin-top: 35px;
+    padding-bottom: 60px;
     height: 80px;
+    width: 100%;
+}
+
+#colophon-left {
+    float: left;
+}
+
+#colophon-right {
+    float: right;
+    text-align: right;
+}
+
+#colophon-right ul {
+    list-style-type: none;
+}
+
+#colophon-right ul li {
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#colophon-right ul li a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
+#colophon-right ul li:hover a {
+    color: lightblue;
+}
+
+#help {
+    position: fixed;
+    background-color: #33475b;
+    bottom: 10px;
+    right: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#help img {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+#help:hover {
+    transform: scale(1.1, 1.1);
 }
