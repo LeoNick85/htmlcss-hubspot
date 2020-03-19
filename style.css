@@ -292,17 +292,9 @@ width: 100%;
     margin-bottom: 100px;
 }
 
-#statistics-data {
-    background-color: yellow;
-    height: 600px;
-}
-
-
 .data-square {
     float: left;
     width: 25%;
-    height:300px;
-    background-color: purple;
     text-align: center;
     border-right: 1px solid white;
 }
@@ -313,4 +305,22 @@ width: 100%;
 
 .data-square:last-child {
     border: none;
+}
+
+.data-square img {
+margin-top: 40px;
+}
+
+.data-square p {
+ font-size: 60px;
+ font-weight: bold;
+}
+
+.data-square h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.data-row:last-child .data-square:last-child img {
+    margin-top: 50px;
 }
